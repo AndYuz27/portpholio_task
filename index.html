@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--https://www.figma.com/community/file/1146136385662352104-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,9 +53,10 @@
 main{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     background-color: navy;
     height: 100%;
+    padding: 25px;
 }
 
 .go_btn{
@@ -77,16 +79,56 @@ main{
 .cards{
     display: flex;
     flex-direction: row;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+
+    
     
     
 
 }
 .card{
-    background-color: thistle;
+    /* background-color: thistle; */
     width: 128px;
     height: 128px;
-    margin: 15px;
+    margin-left: 55px; 
+    margin-right: 55px; 
 }
+ .gggfff{
+    background-color: #3f3f3f;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    /* margin: 0; */
+    color: white;
+}
+.card1{
+    /* background-color: thistle; */
+    width: 900px;
+    height: 380px;
+    /* margin-left: 55px; 
+    margin-right: 55px;  */
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    padding: 8px;
+}
+
+.t_btn{
+    width: 192px;
+    height: 72px;
+    font-size: 36px;
+    border-radius: 16px;
+    background-color: white;
+    border: none;
+
+}
+
 </style>
 </head>
 <body>
@@ -99,9 +141,9 @@ main{
         <div class="ff">
             <a href="/">Andrey's Portpholio</a>
             <nav>
-                <a href="#">Опыт</a>
                 <a href="#">О Себе</a>
-                <a href="#">Работа в команде</a>
+                <a href="#myExp">Опыт</a>
+                <a href="#myWorks">Мои работы</a>
                 <a href="#">Cвязь</a>
             </nav>
         </div>
@@ -115,13 +157,24 @@ main{
 </div>
     </header>
     <main>
-        <h2>Мой опыт</h2>
+        <h2 id="myExp">Мой опыт</h2>
         <div class="cards">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+            <div class="card"><a href="https://ithub.ru/" target="_blank"><img src="https://ithub.ru/design/images/courses/logoIThub.png" alt="ITHub College" width="128"></a></div>
+            <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React JS" width="128"></div>
+            <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript-logo" width="128"></div>
+            <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="JavaScript-logo" width="128"></div>
         </div>
     </main>
+    <div class="gggfff">
+        <h2 id="myWorks">Мои Работы</h2>
+        <div class="card1">
+            <div class="img_t"><img src="cats2.jpg" alt="Andy's Cats" width="380"></div>
+            <div class="info_work" style="padding: 24px; color: white;">
+            <h3>Andy's Cats</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem, architecto, optio laudantium suscipit quis reiciendis beatae corrupti dolores illum minima provident similique cum vero animi repellat placeat quidem blanditiis.</p>
+            <button class="t_btn" onclick="alert('lol')">Заглянуть</button>
+            </div>
+        </div>
+        </div>
 </body>
 </html>
