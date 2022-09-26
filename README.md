@@ -1,3 +1,3 @@
 # portpholio_task
  
-## Референс находится в комментрии index.html (4 строка)
+## Референс https://www.figma.com/community/file/1146136385662352104

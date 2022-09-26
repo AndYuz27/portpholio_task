@@ -10,6 +10,7 @@
     body{
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
+            color: white;
     }
 
     a{
@@ -128,6 +129,14 @@ h2{
     border: none;
 
 }
+.t_btn:hover{
+    background-color: black;
+    color: white;
+}
+.t_btn:active{
+    background-color: darkblue;
+    color: white;
+}
 
 </style>
 </head>
@@ -172,9 +181,42 @@ h2{
             <div class="info_work" style="padding: 24px; color: white;">
             <h3>Andy's Cats</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem, architecto, optio laudantium suscipit quis reiciendis beatae corrupti dolores illum minima provident similique cum vero animi repellat placeat quidem blanditiis.</p>
-            <button class="t_btn" onclick="alert('lol')">Заглянуть</button>
+            <button class="t_btn" onclick="srcPage('https://andyuz27.github.io/cats2/')">Заглянуть</button>
             </div>
+            
         </div>
+        <h4>Coming soon...</h4>
         </div>
+        <div class="gggfff">
+            <h2 id="contact">Связь</h2>
+            <div class="tttt" style="display: flex; flex-direction: row; padding: 30px;">
+                <div>
+                <a href="mailto:yuzlov2003@gmail.com">Email 1</a><br>
+                <a href="mailto:yuzlovaa20@st.ithub.ru">Email 2</a>
+                
+                <br>
+            </div>
+            <div class="info_work" style="padding: 24px; color: white;">
+                <p>Связаться можно только по E-mail. </p>
+                </div>
+            </div>
+                
+
+    
+    </div>
+
+    <footer style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; height: 200px; width: inherit; background-color:rgb(0, 60, 255); padding: 35px;">
+        <div class="logo"><a href="/">Andrey's Portpholio</a></div>
+        <div class="info_footer">
+             <a href="https://github.com/AndYuz27">AndYuz27</a>
+        </div>
+        
+    </footer>
+
+        <script>
+            function srcPage(page){
+             window.location = page //'https://andyuz27.github.io/cats2/'
+            }
+        </script>
 </body>
 </html>
