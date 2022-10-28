@@ -184,6 +184,24 @@ h2{
             </div>
             
         </div>
+        <div class="card1">
+            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg" alt="Andy's Cats" width="380"></div>
+            <div class="info_work" style="padding: 24px; color: white;">
+            <h3>Проект на React.JS</h3>
+            <p>Тема: сайт с блогами. Использованно следующее: Axios (для упрощенной работы с API, есть и нативый API), React, React-router-dom</p>
+            <button class="t_btn" onclick="srcPage('https://andyuz27.github.io/aaa_blog/')">Заглянуть</button>
+            </div>
+            
+        </div>
+        <div class="card1">
+            <div class="img_t"><img src="https://longislandsportsdome.com/wp-content/uploads/2019/01/182-1826643_coming-soon-png-clipart-coming-soon-png-transparent.png" alt="Andy's Cats" width="380"></div>
+            <div class="info_work" style="padding: 24px; color: white;">
+            <h3>Проект на Vue</h3>
+            <p>Проект делают: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)</p>
+            <button class="t_btn" onclick="popUp_message('Проект пока разрабатывается [Under Construction]')">Develop</button>
+            </div>
+            
+        </div>
         <h4>Coming soon...</h4>
         </div>
         <div class="gggfff">
@@ -215,6 +233,10 @@ h2{
         <script>
             function srcPage(page){
              window.location = page //'https://andyuz27.github.io/cats2/'
+            }
+            function popUp_message(n){
+                alert(n)
+                console.log('[PopUp is called]    Message =>', n)
             }
         </script>
 </body>
