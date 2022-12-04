@@ -204,8 +204,16 @@ h2{
             <p>Проект делают: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)</p>
             <button class="t_btn" onclick="srcPage('https://github.com/AndYuz27/aaa_account')">GitHub</button>
             </div>
+
             
         </div>
+        <div class="card1">
+            <div class="img_t"><img src="https://longislandsportsdome.com/wp-content/uploads/2019/01/182-1826643_coming-soon-png-clipart-coming-soon-png-transparent.png" alt="Andy's Cats" width="380"></div>
+            <div class="info_work" style="padding: 24px; color: white;">
+            <h3>Аналог Trello</h3>
+            <p>Проект делают: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)</p>
+            <button class="t_btn" onclick="popUp_message('проект пока разрабатывается')">develop</button>
+            </div>
         <h4>Coming soon...</h4>
         </div>
         <div class="gggfff">
@@ -226,7 +234,7 @@ h2{
     
     </div>
 
-    <footer style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; height: 200px; width: inherit; background-color:rgb(0, 60, 255); padding: 35px;">
+    <footer style="width: 100%; display: flex; flex-direction: row; justify-content: space-between; align-items: center; height: 160px; background-color:rgb(0, 60, 255); padding: 35px;">
         <div class="logo"><a href="/">Andrey's Portpholio</a></div>
         <div class="info_footer">
              <a href="https://github.com/AndYuz27">AndYuz27</a>
@@ -235,10 +243,10 @@ h2{
     </footer>
 
         <script>
-            function srcPage(page){
+            function srcPage(page){//Функция перехода на другую страницу
              window.location = page //'https://andyuz27.github.io/cats2/'
             }
-            function popUp_message(n){
+            function popUp_message(n){ //вывод сообщения после нажатия на кнопку
                 alert(n)
                 console.log('[PopUp is called]    Message =>', n)
             }
