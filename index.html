@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png"/>
     <title>Andrey's Portpholio</title>
 <style>
     body{
@@ -140,7 +141,43 @@ h2{
     background-color: darkblue;
     color: white;
 }
+.info_rezume{
+    color: black;
+    background-color: #fff;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 16px;
+}
+.info_rezume:hover{
+    background-color: rgb(251, 255, 176);
+}
+.hdr_resum{
+    display: inline-block;
+    width: 178px;
+  height: 1em;
+  overflow: hidden;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
 
+.hdr_resum::before {
+  content: "";
+  float: right;
+  height: 100%;
+  margin-right: -1ch;
+  animation: shrink steps(16) 12s infinite;
+}
+
+@keyframes shrink {
+  from { width: calc(100% + 1ch); }
+  to { width: 0; }
+}
 </style>
 </head>
 <body>
@@ -160,8 +197,8 @@ h2{
         </div>
     </div>
     <div class="text_title">
-    <h1 style="font-size: 63px;">Портфолио Front-end разработчика</h1>
-    <p style="width: 120vh; font-size: 25px;">Юзлов Андрей Александрович - Студент 3го Курса колледжа ITHub. Поступил в 2020 году, по специальности Web-Разработка.</p>
+    <h1 style="font-size: 63px;">Портфолио Андрея Юзлова</h1>
+    <p style="width: 120vh; font-size: 25px;">Юзлов Андрей Александрович - Студент 3го Курса колледжа ITHub. Поступил в 2020 году, по специальности Web-Разработка (направление Front-end).</p>
     <button type="button" class="go_btn">Let's Go</button>
 </div>
     </div>
@@ -208,16 +245,16 @@ h2{
             
         </div>
         <div class="card1">
-            <div class="img_t"><img src="https://longislandsportsdome.com/wp-content/uploads/2019/01/182-1826643_coming-soon-png-clipart-coming-soon-png-transparent.png" alt="Andy's Cats" width="380"></div>
+            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Нет картинки либо готовится" width="380"></div>
             <div class="info_work" style="padding: 24px; color: white;">
             <h3>Аналог Trello</h3>
             <p>Проект делают: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)</p>
-            <button class="t_btn" onclick="popUp_message('проект пока разрабатывается')">develop</button>
+            <button class="t_btn" onclick="popUp_message('ссылка готовиться')">Заглянуть</button>
             </div>
         
         </div>
         <div class="card1">
-            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Andy's Cats" width="380"></div>
+            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Нет картинки либо готовится" width="380"></div>
             <div class="info_work" style="padding: 24px; color: white;">
             <h3>Гонки на css и js</h3>
             <p>Проект делают: AndYuz27 (Андрей Юзлов)</p>
@@ -226,11 +263,20 @@ h2{
             
         </div>
         <div class="card1">
-            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Andy's Cats" width="380"></div>
+            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Нет картинки либо готовится" width="380"></div>
             <div class="info_work" style="padding: 24px; color: white;">
             <h3>часы</h3>
             <p>Проект делают: AndYuz27 (Андрей Юзлов)</p>
             <button class="t_btn" onclick="srcPage('https://AndYuz27.github.io/aaa_clock/')">Заглянуть</button>
+            </div>
+            
+        </div>
+        <div class="card1">
+            <div class="img_t"><img src="wbpars.png" alt="WB - Parser" width="380"></div>
+            <div class="info_work" style="padding: 24px; color: white;">
+            <h3>Wildberries Parser</h3>
+            <p>Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даня Писаренко)</p>
+            <button class="t_btn" onclick="srcPage('https://wild-parse.vercel.app/')">Заглянуть</button>
             </div>
             
         </div>
@@ -247,6 +293,11 @@ h2{
             <div class="info_work" style="padding: 24px; color: white;">
                 <p>Связаться можно только по E-mail. </p>
                 </div>
+
+            </div>
+            <div class="info_rezume" style="padding: 24px; color: white;">
+                <h3 class="hdr_resum" style="color: black">Ссылка на резюме</h3>
+                <a href="https://docs.google.com/document/d/1fkpAtXcS-RiVrzK3p2gZIndzthFPFIhDFBMttG5iaFc/edit?usp=sharing"><img src="https://win98icons.alexmeub.com/icons/png/notepad_file-2.png" alt="Link to a document"></a>
             </div>
                 
 
