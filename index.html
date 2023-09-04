@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <!--https://www.figma.com/community/file/1146136385662352104-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,176 +9,7 @@
     <!--<link rel="icon" type="image/png" href="favicon.png"/>-->
     <title>Andrey's Portpholio</title>
 <style>
-    body{
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            margin: 0;
-            color: white;
-    }
 
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    .da{
-        background: rgba(0, 60, 255, 0.507);
-        width: 100%;
-        height: 1024px;
-        display: flex;
-        flex-direction: column;
-    }
-    .dd{
-        background-image: url(bg1.JPG);
-        background-repeat: no-repeat;
-        height: 1024px;
-        background-position: center;
-        background-size: cover;
-    }
-    .af{
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    
-    .ff{
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        height: 80px;
-        align-items: center;
-        /* background-color:  lightblue; */
-}
-    .text_title{
-        padding: 50px;
-        padding-top: 100px;
-        color: white;
-}
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: navy;
-    height: 100%;
-    padding: 25px;
-}
-
-.go_btn{
-    width: 192px;
-    height: 72px;
-    font-size: 36px;
-    border-radius: 16px;
-    background-color: white;
-    border: none;
-    transition: 0.3s;
-
-}
-.go_btn:hover{
-    background-color: black;
-    color: white;
-}
-.go_btn:active{
-    background-color: darkblue;
-    color: white;
-}
-.cards{
-    display: flex;
-    flex-direction: row;
-    margin: 25px;
-    justify-content: center;
-    align-items: center;
-
-    
-    
-    
-
-}
-.card{
-    /* background-color: thistle; */
-    width: 128px;
-    height: 128px;
-    margin-left: 55px; 
-    margin-right: 55px; 
-}
- .gggfff{
-    background-color: #3f3f3f;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-h2{
-    /* margin: 0; */
-    color: white;
-}
-.card1{
-    /* background-color: thistle; */
-    width: 900px;
-    height: 380px;
-    /* margin-left: 55px; 
-    margin-right: 55px;  */
-    display: flex;
-    flex-direction: row;
-    margin: 8px;
-    padding: 8px;
-}
-
-.t_btn{
-    width: 192px;
-    height: 72px;
-    font-size: 36px;
-    border-radius: 16px;
-    background-color: white;
-    border: none;
-    transition: 0.3s;
-
-
-}
-.t_btn:hover{
-    background-color: black;
-    color: white;
-}
-.t_btn:active{
-    background-color: darkblue;
-    color: white;
-}
-.info_rezume{
-    color: black;
-    background-color: #fff;
-    padding: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    border-radius: 16px;
-}
-.info_rezume:hover{
-    background-color: rgb(251, 255, 176);
-}
-.hdr_resum{
-    display: inline-block;
-    width: 178px;
-  height: 1em;
-  overflow: hidden;
-  vertical-align: top;
-  overflow-wrap: break-word;
-  word-break: break-all;
-}
-
-.hdr_resum::before {
-  content: "";
-  float: right;
-  height: 100%;
-  margin-right: -1ch;
-  animation: shrink steps(16) 12s infinite;
-}
-
-@keyframes shrink {
-  from { width: calc(100% + 1ch); }
-  to { width: 0; }
-}
 </style>
 </head>
 <body>
@@ -197,8 +29,8 @@ h2{
         </div>
     </div>
     <div class="text_title">
-    <h1 style="font-size: 63px;">Портфолио Андрея Юзлова</h1>
-    <p style="width: 120vh; font-size: 25px;">Юзлов Андрей Александрович - Студент 3го Курса колледжа ITHub. Поступил в 2020 году, по специальности Web-Разработка (направление Front-end).</p>
+    <h1 class="hdr_text">Портфолио Андрея Юзлова</h1>
+    <p class="hdr_title" >Юзлов Андрей Александрович - Студент 3го Курса колледжа ITHub. Поступил в 2020 году, по специальности Web-Разработка (направление Front-end).</p>
     <button type="button" class="go_btn">Let's Go</button>
 </div>
     </div>
@@ -207,93 +39,23 @@ h2{
     <main>
         <h2 id="myExp">Мой опыт</h2>
         <div class="cards">
-            <div class="card"><a href="https://ithub.ru/" target="_blank"><img src="https://ithub.ru/design/images/courses/logoIThub.png" alt="ITHub College" width="128"></a></div>
-            <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React JS" width="128"></div>
-            <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript-logo" width="128"></div>
-            <div class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="JavaScript-logo" width="128"></div>
+            <div class="card"><a href="https://ithub.ru/" target="_blank"><img class="experience_icon" src="https://ithub.ru/design/images/courses/logoIThub.png" alt="ITHub College" ></a></div>
+            <div class="card"><img class="experience_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React JS"></div>
+            <div class="card"><img class="experience_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript-logo"></div>
+            <div class="card"><img class="experience_icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="JavaScript-logo"></div>
         </div>
     </main>
-    <div class="gggfff">
+    <div class="gggfff" >
         <h2 id="myWorks">Мои Работы</h2>
-        <div class="card1">
-            <div class="img_t"><img src="cats2.jpg" alt="Andy's Cats" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>Andy's Cats</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem, architecto, optio laudantium suscipit quis reiciendis beatae corrupti dolores illum minima provident similique cum vero animi repellat placeat quidem blanditiis.</p>
-            <button class="t_btn" onclick="srcPage('https://andyuz27.github.io/cats2/')">Заглянуть</button>
-            </div>
-            <!--https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg  - нет фото -->
-            <!--https://longislandsportsdome.com/wp-content/uploads/2019/01/182-1826643_coming-soon-png-clipart-coming-soon-png-transparent.png  - скоро -->
-        </div>
-        <div class="card1">
-            <div class="img_t"><img src="blog.png" alt="Andy's Blog" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>Проект на React.JS</h3>
-            <p>Тема: сайт с блогами. Использованно следующее: Axios (для упрощенной работы с API, есть и нативый API), React, React-router-dom</p>
-            <button class="t_btn" onclick="srcPage('https://andyuz27.github.io/aaa_blog/')">Заглянуть</button>
-            </div>
-            
-        </div>
-        <div class="card1">
-            <div class="img_t"><img src="dcore.png" alt="Andy's Cats" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>Проект на Vue</h3>
-            <p>Проект делают: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)</p>
-            <button class="t_btn" onclick="srcPage('https://github.com/AndYuz27/aaa_account')">GitHub</button>
-            </div>
+        <div id="ffddaa"></div>
 
-            
-        </div>
-        <div class="card1">
-            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Нет картинки либо готовится" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>Аналог Trello</h3>
-            <p>Проект делают: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)</p>
-            <button class="t_btn" onclick="popUp_message('ссылка готовиться')">Заглянуть</button>
-            </div>
-        
-        </div>
-        <div class="card1">
-            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Нет картинки либо готовится" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>Гонки на css и js</h3>
-            <p>Проект делают: AndYuz27 (Андрей Юзлов)</p>
-            <button class="t_btn" onclick="srcPage('https://AndYuz27.github.io/and-race/')">Заглянуть</button>
-            </div>
-            
-        </div>
-        <div class="card1">
-            <div class="img_t"><img src="https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg " alt="Нет картинки либо готовится" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>часы</h3>
-            <p>Проект делают: AndYuz27 (Андрей Юзлов)</p>
-            <button class="t_btn" onclick="srcPage('https://AndYuz27.github.io/aaa_clock/')">Заглянуть</button>
-            </div>
-            
-        </div>
-        <div class="card1">
-            <div class="img_t"><img src="wbpars.png" alt="WB - Parser" width="380"></div>
-            <div class="info_work" style="padding: 24px; color: white;">
-            <h3>Wildberries Parser</h3>
-            <p>Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даня Писаренко)</p>
-            <button class="t_btn" onclick="srcPage('https://wild-parse.vercel.app/')">Заглянуть</button>
-            </div></div>
-            <div class="card1">
-                <div class="img_t"><img src="JobFinder.png" alt="JobFinder" width="380"></div>
-                <div class="info_work" style="padding: 24px; color: white;">
-                <h3>JobFinder</h3>
-                <p>Проект делал: AndYuz27 (Андрей Юзлов)</p>
-                <p>Проект сайта по поиску работы (по вакансиями, по городу и компаниями)</p>
-                <button class="t_btn" onclick="srcPage('https://job-finder-aaa.vercel.app/')">Заглянуть</button>
-            </div>
-        </div>
         <h4>Coming soon...</h4>
         <div class="gggfff">
             <h2 id="contact">Связь</h2>
-            <div class="tttt" style="display: flex; flex-direction: row; padding: 30px;">
+            <div class="tttt">
                 <div>
-                <a href="mailto:yuzlov2003@gmail.com">Email 1</a><br>
-                <a href="mailto:yuzlovaa20@st.ithub.ru">Email 2</a>
+                <a class="email-links" href="mailto:yuzlov2003@gmail.com">Email 1</a><br>
+                <a class="email-links" href="mailto:yuzlovaa20@st.ithub.ru">Email 2</a>
                 
                 <br>
             </div>
@@ -311,7 +73,7 @@ h2{
     
     </div>
 
-    <footer style="width: 100%; display: flex; flex-direction: row; justify-content: space-between; align-items: center; height: 160px; background-color:rgb(0, 60, 255); padding: 35px;">
+    <footer>
         <div class="logo"><a href="/">Andrey's Portpholio</a></div>
         <div class="info_footer">
              <a href="https://github.com/AndYuz27">AndYuz27</a>
@@ -320,6 +82,30 @@ h2{
     </footer>
 
         <script>
+        let item_list = document.querySelector("#ffddaa")
+
+            fetch("./work.json").then(response => response.json()).then(data => {
+                for (var i = 0; i<data.projs.length; i++){
+                    let id = data.projs[i].id;
+                    let image = data.projs[i].image;
+                    let name_porj = data.projs[i].name_project;
+                    let descr = data.projs[i].description;
+                    let alink = data.projs[i].link;
+                    // console.log(descr)
+                    item_list.innerHTML += `
+                        <div class="card1">
+                            <div class="img_t"><img src="${image}" alt="${name_porj}" width="380"></div>
+                            <div class="info_work" style="padding: 24px; color: white;">
+                                <h3>${name_porj}</h3>
+                                <p>${descr}</p>
+                                <button class="t_btn" onclick="${alink}">Заглянуть</button>
+                            </div>
+                        </div>`;
+                }
+            })
+
+
+
             function srcPage(page){//Функция перехода на другую страницу
              window.location = page //'https://andyuz27.github.io/cats2/'
             }

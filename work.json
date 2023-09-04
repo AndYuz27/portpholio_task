@@ -1,0 +1,53 @@
+
+{
+"projs":[
+    {   "id": 1,
+        "image": "./cats2.jpg",
+        "name_project": "Andy's Cats",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem, architecto, optio laudantium suscipit quis reiciendis beatae corrupti dolores illum minima provident similique cum vero animi repellat placeat quidem blanditiis.",
+        "link": "srcPage('https://andyuz27.github.io/cats2/')"
+    },
+    {   "id": 2,
+        "image": "./blog.png",
+        "name_project": "Проект на React.JS",
+        "description": "Тема: сайт с блогами. Использованно следующее: Axios (для упрощенной работы с API, есть и нативый API), React, React-router-dom",
+        "link": "srcPage('https://andyuz27.github.io/aaa_blog/')"
+    },
+    {   "id": 3,
+        "image": "./dcore.png",
+        "name_project": "Проект на Vue",
+        "description": "Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)",
+        "link": "srcPage('https://github.com/AndYuz27/aaa_account')"
+    },
+    {   "id": 4,
+        "image": "https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg",
+        "name_project": "Аналог Trello",
+        "description": "Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)",
+        "link": "popUp_message('ссылка готовиться')"
+    },
+    {   "id": 5,
+        "image": "https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg",
+        "name_project": "Гонки на css и js",
+        "description": "Проект делал: AndYuz27 (Андрей Юзлов)",
+        "link": "srcPage('https://AndYuz27.github.io/and-race/')"
+    },
+    {   "id": 6,
+        "image": "https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg",
+        "name_project": "Часы",
+        "description": "Проект делал: AndYuz27 (Андрей Юзлов)",
+        "link": "srcPage('https://AndYuz27.github.io/aaa_clock/')"
+    },
+    {   "id": 7,
+        "image": "./wbpars.png",
+        "name_project": "Wildberries Parser",
+        "description": "Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)",
+        "link": "srcPage('https://wild-parse.vercel.app/')"
+    },
+    {   "id": 8,
+        "image": "./JobFinder.png",
+        "name_project": "Проект JobFinder",
+        "description": "Проект сайта по поиску работы (по вакансиями, по городу и компаниями)",
+        "link": "srcPage('https://job-finder-aaa.vercel.app/')"
+    }
+]
+}
