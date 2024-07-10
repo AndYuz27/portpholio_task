@@ -47,7 +47,13 @@
         "image": "./JobFinder.png",
         "name_project": "Проект JobFinder",
         "description": "Проект сайта по поиску работы (по вакансиями, по городу и компаниями)",
-        "link": "srcPage('https://job-finder-aaa.vercel.app/')"
+        "link": "srcPage('./mock/jobfinder.html')"
+    },
+    {   "id": 9,
+        "image": "https://spb.grandsvai.ru/assets/templates/main/images/bm-house.png",
+        "name_project": "Проект по разработке веб-приложения продажи-аренды недвижимости",
+        "description": "Дипломный проект по разработке пользовательского интерфейса веб-приложения продажи-аренды недвижимости",
+        "link": "srcPage('./mock/estate.html')"
     }
 ]
 }
