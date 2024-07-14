@@ -1,12 +1,6 @@
 
 {
 "projs":[
-    {   "id": 1,
-        "image": "./cats2.jpg",
-        "name_project": "Andy's Cats",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem, architecto, optio laudantium suscipit quis reiciendis beatae corrupti dolores illum minima provident similique cum vero animi repellat placeat quidem blanditiis.",
-        "link": "srcPage('https://andyuz27.github.io/cats2/')"
-    },
     {   "id": 2,
         "image": "./blog.png",
         "name_project": "Проект на React.JS",
@@ -20,28 +14,28 @@
         "link": "srcPage('https://github.com/AndYuz27/aaa_account')"
     },
     {   "id": 4,
-        "image": "https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg",
+        "image": "https://textmore.ru/wp-content/uploads/2017/06/6c1fe6d9a9114a8e8bbd3d8ba8076765.jpg",
         "name_project": "Аналог Trello",
         "description": "Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)",
-        "link": "popUp_message('ссылка готовиться')"
+        "link": "srcPage('https://github.com/AndYuz27/nedoTrull')"
     },
     {   "id": 5,
-        "image": "https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg",
+        "image": "https://images.summitmedia-digital.com/topgear/images/2020/07/10/ae86-7-1594356177.jpg",
         "name_project": "Гонки на css и js",
         "description": "Проект делал: AndYuz27 (Андрей Юзлов)",
         "link": "srcPage('https://AndYuz27.github.io/and-race/')"
     },
     {   "id": 6,
-        "image": "https://demo.morethanthemes.com/directoryplus8/default/sites/default/files/2017-06/video-poster.jpg",
+        "image": "https://cdn2.static1-sima-land.com/items/4148824/0/700-nw.jpg",
         "name_project": "Часы",
-        "description": "Проект делал: AndYuz27 (Андрей Юзлов)",
+        "description": "Демострация работы аналоговых часов при помощи HTML/CSS и JS. Проект делал: AndYuz27 (Андрей Юзлов)",
         "link": "srcPage('https://AndYuz27.github.io/aaa_clock/')"
     },
     {   "id": 7,
-        "image": "./wbpars.png",
-        "name_project": "Wildberries Parser",
-        "description": "Проект делали: AndYuz27 (Андрей Юзлов) и DanPisarenko (Даниил Писаренко)",
-        "link": "srcPage('https://wild-parse.vercel.app/')"
+        "image": "https://www.dhresource.com/0x0/f2/albu/g2/M00/C4/D7/rBVaG1RBMqGAJPoVAAFdKGIGB_s906.jpg",
+        "name_project": "Генератор аватарок Minecraft",
+        "description": "Проект делал: AndYuz27 (Андрей Юзлов)",
+        "link": "srcPage('https://andyuz27.github.io/avatar-mc/')"
     },
     {   "id": 8,
         "image": "./JobFinder.png",
@@ -50,6 +44,25 @@
         "link": "srcPage('./mock/jobfinder.html')"
     },
     {   "id": 9,
+    "image": "https://a-a-ah-ru.s3.amazonaws.com/uploads/items/103840/129858/large_5927f0d865f7f846934798.jpg",
+    "name_project": "Шахматы на React.JS",
+    "description": "Проект делал: AndYuz27 (Андрей Юзлов)",
+    "link": "srcPage('https://github.com/AndYuz27/aaa_chess')"
+},
+{   "id": 10,
+"image": "https://res.cloudinary.com/practicaldev/image/fetch/s--OkBgfgPx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/yc0hv58in4eyxjj7qlcg.png",
+"name_project": "БЭМ на React.JS",
+"description": "Демострация работы методологии БЭМ от Яндека",
+"link": "srcPage('https://github.com/AndYuz27/aaa_bem')"
+},
+{   "id": 11,
+"image": "./av_landing.jpg",
+"name_project": "Прототип лендинговой страницы антивирусного ПО на React.JS",
+"description": "Данный проект делали Юзлов А., Захаров Д. и Тимошенко П.",
+"link": "srcPage('https://github.com/BetlBit/CP_teamwork1')"
+},
+
+    {   "id": 12,
         "image": "https://spb.grandsvai.ru/assets/templates/main/images/bm-house.png",
         "name_project": "Проект по разработке веб-приложения продажи-аренды недвижимости",
         "description": "Дипломный проект по разработке пользовательского интерфейса веб-приложения продажи-аренды недвижимости",

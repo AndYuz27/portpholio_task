@@ -174,7 +174,12 @@ vertical-align: top;
 overflow-wrap: break-word;
 word-break: break-all;
 }
-
+.cards_aaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .hdr_resum::before {
 content: "";
 float: right;
@@ -271,6 +276,8 @@ flex-direction: column;
 margin: 0px;
 padding: 0px;
 }
+
+
 .tttt{
     flex-direction: column-reverse;
     justify-content: center;
