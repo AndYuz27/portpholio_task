@@ -219,6 +219,31 @@ from { width: calc(100% + 1ch); }
 to { width: 0; }
 }
 @media (max-width: 512px) {
+
+
+    .go_btn_aa{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 192px;
+        height: 72px;
+        font-size: 5pt;
+        border-radius: 16px;
+        background-color: white;
+        border: none;
+        transition: 0.3s;
+        color: black;
+        padding:  12px 25px 12px 25px;
+        }
+        .ffdddd{
+            margin-top: 48px;
+        }
+        .go_btn_aa:hover{
+        background-color: black;
+        color: white;
+        }
+        .go_btn_aa:active{
+        background-color: darkblue;
+        color: white;
+        }
 .dd{
 background-image: url(bg1.JPG);
 background-repeat: no-repeat;
