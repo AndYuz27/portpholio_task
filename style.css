@@ -26,7 +26,13 @@ background-size: cover;
 padding-left: 25px;
 padding-right: 25px;
 }
-
+.link_github{
+    color: white;
+    transition: 0.3s;
+}
+.link_github:hover{
+    color: cyan ;
+}
 .ff{
 
 display: flex;
